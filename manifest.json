@@ -1,0 +1,26 @@
+{
+  "name": "Focus Beats",
+  "description": "Destress and listen to some beats while you code/browse!",
+  "version": "2.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/seriousFace.png",
+      "32": "/images/seriousFace.png",
+      "48": "/images/seriousFace.png",
+      "128": "/images/seriousFace.png"
+    }
+  },
+  "icons": {
+    "16": "/images/seriousFace.png",
+    "32": "/images/seriousFace.png",
+    "48": "/images/seriousFace.png",
+    "128": "/images/seriousFace.png"
+  },
+  "options_page": "options.html"
+}

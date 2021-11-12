@@ -1,0 +1,39 @@
+button {
+  height: 70px;
+  width: 70px;
+  outline: none;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  /* background-image: url("images/chill.jpeg"); */
+  /* background-color: red; */
+}
+
+#changeColor {
+  background-image: url("images/chill.jpeg");
+}
+
+#lofi {
+  background-image: url("images/lofi.jpeg");
+}
+
+#movieost {
+  background-image: url("images/movieost.jpeg");
+}
+
+#hiphop {
+  background-image: url("images/ganggang.jpeg");
+}
+
+#michael {
+  background-image: url("images/michael.jpeg");
+}
+
+#current {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}
+
+body {
+  background-image: url("images/musicNotes.png");
+  border-radius: 25px;
+}
